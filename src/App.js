@@ -19,6 +19,8 @@ import Partners from './components/partners/footer';
 import Metaverse from './components/metaverse/metaverse';
 import './assets/newStyle.css';
 import './assets/mainstyle.css'
+import Beet from "./components/beet/beet";
+import Coadmap from "./components/coadmap/roadmap";
 
 function App() {
   return (
@@ -26,17 +28,22 @@ function App() {
       <Header />
        {/* <State /> */}
        <Mint />
+       {/* <State /> */}
       {/* <About />  */}
       
      {/* <Utility className="utilitysec"/> */}
-     <Meet />
+     {/* <Meet /> */}
 
 
-      <RoadMap />
-      <Metaverse/>
+      {/* <RoadMap /> */}
+      {/* <State /> */}
+      {/* <Metaverse/> */}
 
-      <Team />
-      <Partners />
+      {/* <Team /> */}
+      {/* <Partners /> */}
+      <Beet />
+      <Coadmap />
+      {/* <Faqmap /> */}
       <Footer />
     </div>
   );

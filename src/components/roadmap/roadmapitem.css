@@ -5,7 +5,7 @@
     cursor: pointer;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: PoppinsExtraLight;
+    font-family: newThing;
 }
 
 @font-face {
@@ -47,7 +47,7 @@
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
-    font-family: "PoppinsExtraLight";
+    font-family: newThing;
     text-align: left;
 }
 .display-linebreak {

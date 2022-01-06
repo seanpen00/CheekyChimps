@@ -2,10 +2,12 @@
     width: 100%;
     border: solid black 2px;
     border-radius: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .video {
-    width: 100%;
+    width: 80%;
     border: solid black 2px;
     border-radius: 0px;
 }
@@ -14,11 +16,21 @@
     /* background-color: #1b1b68;
      */
     background-image: url(../../assets/10DickBackground.png);
-    padding-top: 60px;
-    padding-bottom: 30px;
+    /* padding-top: 60px; */
+    /* padding-bottom: 30px; */
     /* border-bottom: 2px solid black;
     border-top: 2px solid black; */
 }
+
+@font-face {
+    font-family: newerThing;
+    src: url(../../assets/fonts/Poppins-ExtraLight.ttf);
+  }
+
+@font-face {
+    font-family: newThing;
+    src: url(/src/components/header/Poppins-ExtraLight.ttf);
+  }
 
 
 .mint-description {
@@ -72,7 +84,7 @@
   }
 
 .ybutton {
-    background-color: #6FBD25;
+    background-color: #7eff06;
     color: black;
     padding-left: 20px;
     padding-right: 20px;
@@ -87,7 +99,7 @@
     font-weight: 700;
     border: solid 5px black;
     border-radius: 20px;
-    font-family: newThing;
+    font-family: newerThing;
 }
 
 .ybutton:hover{

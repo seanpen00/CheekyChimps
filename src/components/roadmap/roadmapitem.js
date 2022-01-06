@@ -22,7 +22,7 @@ class RoadMapItem extends React.Component {
                     className='collapse-header-control' >
                     <div className='collapse-header'>
                         {/* <h4>{this.props.tag}</h4> */}
-                        <p>{this.props.title}</p>
+                        <p style={{fontSize: 25, textAlign: "left"}}><text style={{color: "red"}}>{this.props.tag}:</text> {this.props.title}</p>
                     </div>
                     {/* <BsPlusLg /> */}
                 </div>

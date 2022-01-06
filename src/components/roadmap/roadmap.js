@@ -2,10 +2,10 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 //import CSS
-import './roadmap.css';
+import './boadmap.css';
 
 //import Assets
-import il from '../../assets/about.gif';
+import il from '../../assets/dice.png';
 
 //import Component
 import RoadMapItem from "./roadmapitem";
@@ -16,33 +16,23 @@ class RoadMap extends React.Component {
             roadmaps: [
                 {
                     tag: 'Phase 1',
-                    title: 'Inception (Q4 2021)',
-                    content: "-Website is launched\n -Create partnerships with tree foundations"
+                    title: 'RELEASE THE CHEEKY CHIMPS',
+                    content: "Our Cheeky Chimps will be released in 2 parts: \n(1) Pre-Sale: 1,111 Cheeky Chimps available to mint and \n(2) Public Sale: 10,000 Cheeky Chimps available to mint. Max mint during pre-sale will be three \n(3) Cheeky Chimps per wallet and public sale will be capped at ten (10) Cheeky Chimps per wallet."
                 },
                 {
                     tag: 'Phase 2',
-                    title: 'Community (Q4 2021)',
-                    content: "-Social Media marketing campaigns are launched\n-Raffle giveaway once we reach 25,000 discord members\n-Whitelisting"
+                    title: 'WELCOME TO THE CHEEKY CHIMPS',
+                    content: "All Cheeky Chimps will be revealed 72 hours after the minting process has been concludes. \nEach Cheeky Chimp’s rarity will be revealed, granting holders access to some awesome events including sports, festivals and concerts!"
                 },
                 {
                     tag: 'Phase 3',
-                    title: 'Launch (Q4 2021)',
-                    content: '-NFTs are sold to the public\n-Unlockable content released\n-Exclusive community group launched\n-Merchandise is launched'
+                    title: 'CHEEKY CHIMPS CLUB TOKEN REVEAL',
+                    content: 'The fun doesn’t stop there! It’s only fitting that our Cheeky Chimps have their own token to play with in the Cheeky Chimps Club! \nWe will also be releasing Cheeky Chimp owner bonuses and rewards tiers.'
                 },
                 {
                     tag: 'Phase 4',
-                    title: 'Donation (Q1 2022)',
-                    content: '-Donation of 5% to charitable foundations\n-Contributions to DAOs\n-Trees are planted and matched'
-                },
-                {
-                    tag: 'Phase 5',
-                    title: 'After Launch (Q1 2022)',
-                    content: '-$50,000 is pumped into the Power Plants Fund for ongoing developments and marketing campaigns\n-Rare owners get original art/seeds mailed to them\n-2% of ongoing secondary marketplace sales are donated\n-Raffles on social media platforms'
-                },
-                {
-                    tag: 'Phase 6',
-                    title: 'Metaverse (Q2 2022)',
-                    content: '-Owners will have the ability to stake their NFTs\n-Owners will receive rewards from staking'
+                    title: 'CHEEKY CHIMPS CLUB LAUNCH',
+                    content: 'The moment we’ve all been waiting for… our very own online casino goes live with over 130 games covering all your online casino favourites. \nWe will be hosting our launch party in several locations to cater for as many Cheeky Chimp owners as possible. \nWe will announce our major token release with prize giveaways also happening on the night… so the best really is yet to come!'
                 },
                 
             ]
@@ -51,7 +41,7 @@ class RoadMap extends React.Component {
 
     render() {
         return (
-            <div className='roadmap-control' id='roadmap' style={{textAlign: "center"}}>
+            <div className='boadmap-control' id='roadmap' style={{textAlign: "center"}}>
                 <Container >
                     
                     {/* <p className='roadmap-description'>
@@ -59,10 +49,10 @@ class RoadMap extends React.Component {
                     </p> */}
                     <Row style={{alignContent: "center", justifyContent: "center", textAlign: "center"}}>
                         <Col xs={12} md={6}>
-                            <img src={"https://static.wixstatic.com/media/9529be_c5c27e794a4a403fa063f9a414247950~mv2.png/v1/crop/x_555,y_175,w_1673,h_2667/fill/w_488,h_778,al_c,q_90,usm_0.66_1.00_0.01/Blue%20Sapphire%20Orchid.webp"} style={{width:"100%"}}/>
+                            <img src={il} style={{width:"100%"}}/>
                         </Col>
                         <Col  style={{alignContent: "center", justifyContent: "center", textAlign: "center"}}>
-                        <text><header className="roadmap-title" > ROAD MAP</header></text>
+                        <text><header className="boadmap-title" > ROAD MAP</header></text>
                             {
                                 this.state.roadmaps.map((item, index) => {
                                     return(

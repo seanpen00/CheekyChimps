@@ -2,6 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 //import CSS
+
+
+import myPic from "../../assets/CenterPic.png";
+
 import './footer.css';
 import Logo from '../../assets/logo.jpg'
 //import social icons
@@ -35,33 +39,33 @@ class Footer extends React.Component {
         return (
             <div className='footer-control' id="socials">
                 <Container className='footer'>
-                    <Row style={{ width: "100%" }}>
+                    <Row style={{ width: "100%", paddingBottom: 20 }}>
                         <Col md="3" className="footer-logo-container" style={{}}>
-                            <h3>Power Plants</h3>
-                            <img className="footer-logo" src="https://cdn.discordapp.com/attachments/912832626774114384/919467254670839858/FEF4AA8F-E930-438C-94AB-440FC3906428.png" alt="" />
+                            {/* <h3>Power Plants</h3> */}
+                            <img className="footer-logo" src={myPic} alt="" />
                         </Col>
                         <Col md="3" style={{ margin: "auto" }} >
                             <div style={{ display: "flex", textAlign: "center", justifyContent: "center", padding: "0em" }}>
                                 <text className="mint-button" onClick={onMintClick} >MINT</text>
                             </div>
                         </Col>
-                        <Col md="3" className="footer-nav-container">
+                        {/* <Col md="3" className="footer-nav-container">
                             <p className="footer-nav" onClick={onHomeClick}>Home</p>
-                            <p className="footer-nav" onClick={onWhiteClick}>White Paper/FAQ</p>
-                            <p className="footer-nav" onClick={onGalleryClick}>Gallery</p>
+                            <p className="footer-nav" onClick={onWhiteClick}>Roadmap</p>
+                            <p className="footer-nav" onClick={onGalleryClick}>Team</p>
                             <p className="footer-nav" onClick={onShopClick}>Shop</p>
                             <p className="footer-nav" onClick={onOpenSeaClick}>OpenSea</p>
-                        </Col>
+                        </Col> */}
                         <Col md="3" className="footer-social">
                             <p className="footer-social-title">Connect with us on Social Media</p>
                             <div className="social-button-container">
-                                <a className="social-button" href="http://discord.gg/RNxVea93dN">
+                                <a className="social-button" href="http://discord.gg/">
                                     <img src="https://static.wixstatic.com/media/9529be_9bd7b35f04334b70aaafeee921e3c67f~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_9bd7b35f04334b70aaafeee921e3c67f~mv2.webp" alt="" />
                                 </a>
-                                <a className="social-button" href="https://twitter.com/PowerPlants_">
+                                <a className="social-button" href="https://twitter.com/">
                                     <img src="https://static.wixstatic.com/media/9529be_540ad1f79c0e4da587e2095f0226c14c~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_540ad1f79c0e4da587e2095f0226c14c~mv2.webp" alt="" />
                                 </a>
-                                <a className="social-button" href="http://instagram.com/powerplantsnft">
+                                <a className="social-button" href="http://instagram.com/">
                                     <img src="https://static.wixstatic.com/media/9529be_2bfd2ec19e0045c69c757f9e6d0bc4fe~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_2bfd2ec19e0045c69c757f9e6d0bc4fe~mv2.webp" alt="" />
                                 </a>
                             </div>

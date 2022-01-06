@@ -5,10 +5,10 @@ import { Row, Col, Container } from "react-bootstrap";
 import './team.css';
 
 //import image assets
-import CEOImage from '../../assets/team/about.gif';
-import CTOImage from '../../assets/team/about.gif';
-import CMOImage from '../../assets/team/about.gif';
-import CFOImage from '../../assets/team/about.gif'
+import CEOImage from '../../assets/CenterPic.png';
+// import CTOImage from '../../assets/team/about.gif';
+// import CMOImage from '../../assets/team/about.gif';
+// import CFOImage from '../../assets/team/about.gif'
 
 //import Component
 import TeamMember from "./teammember";
@@ -19,29 +19,29 @@ class Team extends React.Component {
         this.state = {
             teams: [
                 {
-                    image: "https://github.com/powerplantsnft/website/blob/main/pp1.jpeg?raw=true",
+                    image: CEOImage,
                     title: 'Tony Stark without the billions. On the rocks type of guy, chases with green juice for balance.',
                     name: "Muhani, Founder"
                 },
                 {
-                    image: "https://github.com/powerplantsnft/website/blob/main/pp2.jpeg?raw=true",
+                    image: CEOImage,
                     title: 'Self-proclaimed crypto-genius. Jack of all trades. Lover of all things nature.',
                     name: "Thomas, Founder"
                 },
                 {
-                    image: "https://github.com/powerplantsnft/website/blob/main/pp3.jpeg?raw=true",
-                    title: 'Scared of heights but would love to go to space.',
-                    name: "Alexander, Artist"
+                    image: CEOImage,
+                    // title: 'Scared of heights but would love to go to space.',
+                    // name: "Alexander, Artist"
                 },
                 {
-                    image: "https://github.com/powerplantsnft/website/blob/main/pp4.jpeg?raw=true",
-                    title: 'Firm believer that the earth is flat. Avoids cliffs.',
-                    name: "Emily, Social Media/Outreach"
+                    image: CEOImage,
+                    // title: 'Firm believer that the earth is flat. Avoids cliffs.',
+                    // name: "Emily, Social Media/Outreach"
                 }, 
                 {
-                    image: "https://github.com/powerplantsnft/website/blob/main/pp5.jpeg?raw=true",
-                    title: 'Developer by day, master chef by night.',
-                    name: "Joseph, Developer"
+                    image: CEOImage,
+                    // title: 'Developer by day, master chef by night.',
+                    // name: "Joseph, Developer"
                 }
             ]
         }
@@ -49,10 +49,10 @@ class Team extends React.Component {
 
     render() {
         return (
-            <div className='team-control' id='team'>
+            <div className='team-control'>
                 <Container>
-                    <header style={{fontStyle: "normal", color:"white"}}> TEAM MEMBERS </header>
-                    <Row>
+                    <header style={{fontStyle: "normal", color:"white"}}> OUR FAMILY </header>
+                    {/* <Row>
                         <Col className="team-control-card" md={6} xs={12} >
                             <TeamMember
                                 imageUrl={this.state.teams[0].image}
@@ -67,7 +67,7 @@ class Team extends React.Component {
                                 name={this.state.teams[1].name}
                             />
                         </Col>
-                    </Row> 
+                    </Row>  */}
                     <Row>
                         <Col className="team-control-card" md={4} xs={12} >
                             <TeamMember

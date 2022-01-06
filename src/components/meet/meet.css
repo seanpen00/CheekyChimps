@@ -1,7 +1,9 @@
 .meet-control {
     padding-top: 0px;
     padding-bottom: 60px;
-    background-color: #141416;
+    background-image: url("../../assets/brickwall.png");
+    border: solid black 10px;
+    margin-bottom: 45px;
     
 }
 

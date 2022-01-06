@@ -34,10 +34,10 @@ class State extends React.Component{
         console.log(this.state.data);
         return(
             <div className="state_layout">
-                <p className="state_title">Wednesday, Dec. 29, 2021, at 2PM EST <br/>DAYS UNTIL MINT</p>
-                <img style={{marginBottom:50}}src="https://gen.sendtric.com/countdown/xzkekmnaue"/>
+                {/* <p className="state_title">Wednesday, Dec. 29, 2021, at 2PM EST <br/>DAYS UNTIL MINT</p> */}
+                {/* <img style={{marginBottom:50}}src="https://gen.sendtric.com/countdown/xzkekmnaue"/> */}
                 
-                
+{/*                 
                 <div className="state_cards">
                     {
                     this.state.data.map(element=>{
@@ -51,7 +51,7 @@ class State extends React.Component{
                             )
                     })
                 }
-                </div>
+                </div> */}
                 <div className="state_bg">
                     
                 </div>

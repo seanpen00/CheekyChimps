@@ -11,8 +11,16 @@
 .team-control {
     padding-bottom: 60px;
     padding-top: 60px;
-    background-color: #242323;
+    background-image: url("../../assets/brickwall.png");
+    border: solid black 20px;
+    margin-bottom: 45px;
+    font-family: asdf;
 }
+
+@font-face {
+    font-family: asdf;
+    src: url(../../assets/fonts/Poppins-ExtraLight.ttf);
+  }
 
 .team-control header span {
     color: #000000;
