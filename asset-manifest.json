@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CheekyChimps/static/css/main.7dcb877d.chunk.css",
+    "main.css": "/CheekyChimps/static/css/main.e421dea8.chunk.css",
     "main.js": "/CheekyChimps/static/js/main.23f92a28.chunk.js",
     "main.js.map": "/CheekyChimps/static/js/main.23f92a28.chunk.js.map",
     "runtime-main.js": "/CheekyChimps/static/js/runtime-main.a2e6c5ba.js",
@@ -12,7 +12,7 @@
     "static/js/3.57d016b0.chunk.js.map": "/CheekyChimps/static/js/3.57d016b0.chunk.js.map",
     "index.html": "/CheekyChimps/index.html",
     "static/css/2.71f93bf9.chunk.css.map": "/CheekyChimps/static/css/2.71f93bf9.chunk.css.map",
-    "static/css/main.7dcb877d.chunk.css.map": "/CheekyChimps/static/css/main.7dcb877d.chunk.css.map",
+    "static/css/main.e421dea8.chunk.css.map": "/CheekyChimps/static/css/main.e421dea8.chunk.css.map",
     "static/js/2.4bfc5861.chunk.js.LICENSE.txt": "/CheekyChimps/static/js/2.4bfc5861.chunk.js.LICENSE.txt",
     "static/media/mint.css": "/CheekyChimps/static/media/10DickBackground.6022fcff.png",
     "static/media/roadmapitem.css": "/CheekyChimps/static/media/ArchivoNarrow-VariableFont_wght.1a8c2c65.ttf",
@@ -53,7 +53,7 @@
     "static/js/runtime-main.a2e6c5ba.js",
     "static/css/2.71f93bf9.chunk.css",
     "static/js/2.4bfc5861.chunk.js",
-    "static/css/main.7dcb877d.chunk.css",
+    "static/css/main.e421dea8.chunk.css",
     "static/js/main.23f92a28.chunk.js"
   ]
 }
