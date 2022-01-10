@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CheekyChimps/static/css/main.e421dea8.chunk.css",
-    "main.js": "/CheekyChimps/static/js/main.23f92a28.chunk.js",
-    "main.js.map": "/CheekyChimps/static/js/main.23f92a28.chunk.js.map",
+    "main.js": "/CheekyChimps/static/js/main.a2cbed49.chunk.js",
+    "main.js.map": "/CheekyChimps/static/js/main.a2cbed49.chunk.js.map",
     "runtime-main.js": "/CheekyChimps/static/js/runtime-main.a2e6c5ba.js",
     "runtime-main.js.map": "/CheekyChimps/static/js/runtime-main.a2e6c5ba.js.map",
     "static/css/2.71f93bf9.chunk.css": "/CheekyChimps/static/css/2.71f93bf9.chunk.css",
@@ -54,6 +54,6 @@
     "static/css/2.71f93bf9.chunk.css",
     "static/js/2.4bfc5861.chunk.js",
     "static/css/main.e421dea8.chunk.css",
-    "static/js/main.23f92a28.chunk.js"
+    "static/js/main.a2cbed49.chunk.js"
   ]
 }

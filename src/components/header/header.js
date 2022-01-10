@@ -94,12 +94,11 @@ class Header extends React.Component {
                     </Navbar>
                     <div className='header-content'>
                         {/* <h1><img className="thePicture" src={il} /></h1> */}
-                        <Container>
-                            <Row>
-                                <Col md={6} xs={12} className='about-description' style={{ textAlign: "center", width: 250 }}>
+                        {/* <Container> */}
+                            {/* <Row> */}
+                                {/* <Col md={6} xs={12} className='about-description' style={{ textAlign: "center", width: 250 }}>
                                     <header>
                                         <span className="home-title" >CHEEKY CHIMPS<br /> CLUB</span>
-                                        {/* <span style={{ color: "white", fontStyle: "normal" }}>No watering required.<br /></span> */}
                                     </header>
                                     <p className="home-title-content dontDisplay">
                                         Coming soon.
@@ -119,14 +118,12 @@ class Header extends React.Component {
                                         </a>
                                     </div>
 
-
-                                    {/* <div><YButton text='COMING SOON' /></div> */}
-                                </Col>
-                                <Col md={6} xs={12} className='image-control dontDisplay' >
-                                    <video controls autoPlay style={{ borderRadius: 0, height: 450, border: "solid black 10px" }} src={il2} alt='about gif' />
-                                </Col>
-                            </Row>
-                        </Container>
+                                </Col> */}
+                                {/* <Col md={6} xs={12} className='image-control dontDisplay' > */}
+                                    <video controls autoPlay style={{ borderRadius: 0, height: 500, border: "solid black 10px" }} src={il2} alt='about gif' />
+                                {/* </Col> */}
+                            {/* </Row> */}
+                        {/* </Container> */}
 
                     </div>
                     <div></div>
